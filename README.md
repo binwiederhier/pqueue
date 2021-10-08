@@ -9,6 +9,19 @@ It provides the typical queue interface `Enqueue` and `Dequeue` and may store an
 Entries are stored as files in the backing directory and are fully managed by `Queue`.
 
 ## Usage
+Import the package:
+
+```go
+import "heckel.io/pqueue"
+```
+
+```
+go get heckel.io/pqueue
+```
+
+The package is imported under the `pqueue` namespace.
+
+## Example
 
 ```go
 import "heckel.io/pqueue"
